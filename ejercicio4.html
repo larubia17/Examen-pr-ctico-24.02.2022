@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parámetro es un palíndromo</title>
+</head>
+<body>
+    <script>
+function palindromo(str) {
+            const strReversed = str.split("").reverse().join("");
+
+            return strReversed === str ? "es palindromo" : "no es palindromo";
+        }
+        console.log(palindromo("reconocer")); 
+        console.log(palindromo("verde")); 
+        
+
+
+</script>
+</body>
+</html>
